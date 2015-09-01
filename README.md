@@ -11,14 +11,14 @@ Using sessions.
 5. Take a look at the `test` folder.
 
 ## Functions 
-- `allowed()` : Function to verify that user is loged in.
-- `get(var)`  : Function to get a specfiec field ( element ) of the logen in user from the database.
+- `allowed()` : **Function to verify that user is loged in.**
+- `get(var)`  : **Function to get a specfiec field ( element ) of the logen in user from the database.**
 
 ## Callbacks
 You can use. url callbacks from the `config.php` file. and implement your own callbacks throug `callbacks.php`.
-- `OnLogin(username)` : Will be called when a user loges in successfully.
-- `OnLoginFail()`     : Will be called when a user loging in fails.
-- `OnLogout()`        : Will be called when a user loges out.
+- `OnLogin(username)` : **Will be called when a user loges in successfully.**
+- `OnLoginFail()`     : **Will be called when a user loging in fails.**
+- `OnLogout()`        : **Will be called when a user loges out.**
 
 ## Contributing
 1. Fork it!
