@@ -3,7 +3,7 @@ Simple and light php login system.
 Using sessions.
 
 ## Usage 
-  - Bassed on a ready users database that has a username and password field.
+  - Bassed on a ready users database that has a **username** and **password** field.
 - Configure your settings `config.php`.
 2. Makesure to put the `config.php` file at the same directory as your pages.
 3. Include `Login.php` file in your login page.
@@ -11,7 +11,7 @@ Using sessions.
 5. Take a look at the `test` folder.
 
 ## Functions 
-- `allowed()` : _Function_ to verify that user is loged in.
+- `allowed()` : Function to verify that user is loged in.
 - `get(var)`  : Function to get a specfiec field ( element ) of the logen in user from the database.
 
 ## Callbacks
