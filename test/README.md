@@ -1,6 +1,6 @@
 ### This Test is configured to this table :
 
-- Table name    : users
+- Table name    : members
 - Username field : username **(*1)**
 - password filed : password **(*2)**
 
