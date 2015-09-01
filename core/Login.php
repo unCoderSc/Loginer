@@ -2,8 +2,9 @@
 		
 	// Config  &  Funcs
 	require('config.php');
-	require($LOGINER_PATH . '/core/sessions.php');
-	require($LOGINER_PATH . '/core/Funcs.php'   );
+	require($LOGINER_PATH . '/core/sessions.php' );
+	include($LOGINER_PATH . '/core/callbacks.php');
+	require($LOGINER_PATH . '/core/Funcs.php'    );
 	
 	// Check for logout request
 	if( isset($_GET['do']) )

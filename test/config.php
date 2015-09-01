@@ -37,7 +37,7 @@
 	$PASSWORD_INPUT      = "password";           // html password input box name
 	$PASSWORD_ENCRYPTION = "MD5";                // Password filed encryption on database ( "MD5" - "SHA1" ) * leave blank("") for no encryption
 	
-	// CallBacks
+	// Url CallBacks // Note you can do it manually throug callbacks.php 
 	$VALID_LOGIN_CALLBACK    = "welcome.php";  // A url which will be called when a login successed * leave blank("") if no callback is needed
 	$NOTVALID_LOGIN_CALLBACK = "sorry.php";    // A url which will be called when a login fail      * leave blank("") if no callback is needed
 	$LOGEDOUT_CALLBACK       = "";             // A url which will be called when a user logout.    * leave blank("") if no callback is needed

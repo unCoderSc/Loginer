@@ -64,13 +64,21 @@
 			{
 				// User is good to go ;D.
 				Start_session(GET_USER_INFO($USERNAME));
-				// After Login call back
+				
+				// Login func callback
+				OnLogin($USERNAME);
+				
+				// Login url call back
 				if($VALID_LOGIN_CALLBACK != "") 
 					header('Location: ' . $VALID_LOGIN_CALLBACK);
 				
 			} else { 
 				// User or pass isn't valid
-				// Error page callback
+				
+				// Error func callback
+				OnLoginFail($USERNAME);
+				
+				// Error url callback
 				if($NOTVALID_LOGIN_CALLBACK != "") 
 					header('Location: ' . $NOTVALID_LOGIN_CALLBACK);
 				
@@ -85,7 +93,11 @@
 		if( IsLogedIn() ) {
 			
 			Destroy_session();
-			// loged out page callback
+			
+			// loged out func callback
+			OnLogout($USERNAME);
+			
+			// loged out url callback
 			if($LOGEDOUT_CALLBACK != "") 
 				header('Location: ' . $LOGEDOUT_CALLBACK);
 			else
