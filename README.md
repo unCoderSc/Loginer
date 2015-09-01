@@ -8,7 +8,7 @@ Using sessions.
 2. Makesure to put the `config.php` file at the same directory as your pages.
 3. Include `Login.php` file in your login page.
 4. Include `Login.php` file in every page you want to reach login info from.
-5. Take a look at the `test` folder :laughing:
+5. Take a look at the `test` folder
 
 ## Contributing
 1. Fork it!
