@@ -19,6 +19,7 @@ You can use. url callbacks from the `config.php` file. and implement your own ca
 - `OnLogin(username)` : **Will be called when a user loges in successfully.**
 - `OnLoginFail()`     : **Will be called when a user loging in fails.**
 - `OnLogout()`        : **Will be called when a user loges out.**
+
 Example : 
 ```php
 function OnLogin($username)
