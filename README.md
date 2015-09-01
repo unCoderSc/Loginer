@@ -8,7 +8,11 @@ Using sessions.
 2. Makesure to put the `config.php` file at the same directory as your pages.
 3. Include `Login.php` file in your login page.
 4. Include `Login.php` file in every page you want to reach login info from.
-5. Take a look at the `test` folder
+5. Take a look at the `test` folder.
+
+## Functions 
+- `allowed()` : Function to verify that the user is logen in.
+- `get(var)`  : Function to get a specfiec field ( element ) of the logen in user from the database.
 
 ## Contributing
 1. Fork it!
